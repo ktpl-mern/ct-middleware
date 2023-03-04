@@ -1,0 +1,16 @@
+module.exports = {
+  cart: require("./cart"),
+  product: require("./product"),
+  category: require("./category"),
+  customer: require("./customer"),
+  order: require("./order"),
+  wishlist: require("./wishlist"),
+  payment: require("./payment"),
+  productProjection: require("./productProjections"),
+  productBundle: require("./productBundles"),
+  review: require("./review"),
+  discount: require("./discount"),
+  project: require("./project"),
+  customObject: require("./v1/customObject"),
+  states: require("./v1/states"),
+}
